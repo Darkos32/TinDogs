@@ -107,3 +107,27 @@ h1 {
 .price-col {
   padding: 3% 2%;
 }
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+#cta >h3{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding: 3%;
+}
+#cta > button{
+  margin: 3% 2% 3% 2%;
+}
+#footer{
+  text-align: center;
+}
+#footer >p {
+  color: #e5e2e2;
+}
+.icon-footer{
+  margin: 20px 10px;
+}
