@@ -114,7 +114,7 @@ p {
   width: 10%;
   margin: 20px;
 }
-
+/* Princing Section */
 #press {
   background-color: #ec7666;
   padding-bottom: 3%;
@@ -133,16 +133,29 @@ p {
   padding: 3% 2%;
 }
 
-#cta {
-}
-
+/* Call to action */
 #cta > button {
   margin: 3% 2% 3% 2%;
 }
 
+/* Footer */
 #footer > p {
   color: #e5e2e2;
 }
 .icon-footer {
   margin: 20px 10px;
+}
+
+/* Media Queries */
+@media (max-width : 1050px){
+  #title{
+    text-align: center;
+  }  
+  .img-div{
+    text-align: center;
+  }
+  .iphone{
+    transform: rotate(0);
+    position: static;
+  }
 }
